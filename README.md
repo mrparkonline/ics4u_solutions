@@ -1,6 +1,13 @@
 # ICS4U Solutions for 2020
 ---
 
+09-17-2020
+- MyFunctionsA.py
+    - Even Number Checker Function
+    - Palindrome Checker Function
+        - A string cleaning Function
+    - Prime Checker
+
 09-16-2020
 - Most occurring value in a list
 - A single Collatz Sequence in a list
