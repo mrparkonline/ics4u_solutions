@@ -1,5 +1,13 @@
 # ICS4U Solutions for 2020
 ---
+09-21-2020
+- MyFunctionsC.py
+    - Fahrenheit to Celsius Function
+    - Celsius to Fahrenheit Function
+    - Average Function (2 Solutions)
+    - List of Factors Function
+    - Nth Fibonacci Function
+    - List of Random Integers Function
 
 09-18-2020
 - MyFunctionsB.py
@@ -7,6 +15,7 @@
     - Consonant Counting Function
     - Duplicate Finder in a Sequence Function
     - Our Own Search Function
+    - Intersect Function (Solved: 09-21-2020)
 - Multiple Prime Checking Functions (isPrime.py)
 
 09-17-2020

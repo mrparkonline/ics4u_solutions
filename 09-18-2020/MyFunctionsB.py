@@ -82,3 +82,24 @@ def search(sequence, target):
     # end for
     return -1
 # end of search()
+
+def intersect(arr1, arr2):
+    ''' intersect() returns a list of common values from our argument
+
+    arguments
+    -- arr1 : list
+    -- arr2 : list
+
+    return
+    -- list
+    '''
+
+    result = [] # this list will contain our common values
+
+    for item in arr1:
+        # check item if it is in arr2
+        if item in arr2 and item not in result:
+            result.append(item)
+
+    return result
+# end of intersect()
