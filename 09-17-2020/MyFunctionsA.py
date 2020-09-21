@@ -91,3 +91,48 @@ def vowelCounter(word):
 
     return counter
 # end of vowelCounter
+
+def factorial(num):
+    ''' factorial() returns num!
+
+    argument
+    -- num : integer
+
+    return
+    -- integer
+    '''
+
+    if num == 0:
+        return 1
+
+    product = 1 # since we are multiplying, initialized as 1
+    for value in range(1,num+1):
+        product *= value
+        # product = product * value
+
+    return product
+# end of factorial
+
+def nthPrime(location):
+    ''' nthPrime() returns the prime number found at the index of the given location argument
+
+    argument
+    -- location : integer
+
+    return
+    -- integer
+    '''
+
+    if location <= 0:
+        return None # There are no primes found before 2.
+    else:
+        counter = 1 # if counter == location, then we have our prime
+        num = 2
+
+        while counter != location:
+            num += 1 # increase our prime variable
+            if isPrime(num): # isPrime(prime) == True
+                counter += 1 # we found a new prime number at a new location
+        # end of while loop
+        return num # we are returning the found prime number
+# end of nthPrime
