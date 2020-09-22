@@ -8,6 +8,9 @@
     - List of Factors Function
     - Nth Fibonacci Function
     - List of Random Integers Function
+    - Min/Max From a Sequence Function (Solved: 09-22-2020)
+    - Integer Inputs Greater than 0 Function (Solved: 09-22-2020)
+    - Pattern Counter from a String Function (Solved: 09-22-2020)
 
 09-18-2020
 - MyFunctionsB.py

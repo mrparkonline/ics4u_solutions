@@ -127,3 +127,92 @@ def randList(low, upper, size):
 
     return result
 # end of randList
+
+def intInput(prompt=''):
+    ''' intInput only allows integers greater than 0 to be inputted
+
+    argument
+    -- prompt : string
+
+    return
+    -- integer
+    '''
+
+    our_input = ''
+    flag = True
+
+    while flag:
+        our_input = input(prompt)
+
+        if our_input.isnumeric() and int(our_input) > 0:
+            flag = False
+            return int(our_input)
+        else:
+            print('Invalid input.')
+# end of intInput
+
+def minimum(sequence):
+    ''' minimum function returns the smallest value from our sequence
+
+    argument
+    -- sequence : string/list
+
+    return
+    -- data value
+    '''
+
+    if not sequence:
+        # sequence is empty therefore there is no minimum value
+        return None
+    else:
+
+        result = sequence[0] # result initialized with the first value of our sequence
+
+        for item in sequence[1:]:
+            if item < result:
+                result = item
+
+        return result
+# end of minimum
+
+def maximum(sequence):
+    ''' maximum() returns the largest value in the sequence
+
+    argument
+    -- sequence : string / integer
+
+    return
+    -- data type
+    '''
+
+    if not sequence:
+        # if the sequence is empty, we return Nothing/None
+        return None
+    else:
+        result = sequence[0] # initializing with the very first value in our sequence
+
+        for item in sequence[1:]:
+            if item > result:
+                result = item
+
+        return result
+# end of maximum
+
+def patternCounter(sequence, pattern):
+    ''' patternCounter function returns how many times the pattern occurs in the sequence
+
+    arguments
+    -- sequence : string
+    -- pattern : string
+
+    return
+    -- integer
+    '''
+
+    counter = 0
+    while pattern in sequence:
+        counter += 1
+        sequence = sequence.replace(pattern, '', 1)
+
+    return counter
+# end of patternCounter
