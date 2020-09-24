@@ -1,5 +1,19 @@
 # ICS4U Solutions for 2020
 ---
+
+09-23-2020
+- factorQ.py
+    - List of Factors for N
+    - Which number generates the most number of factors from A to B? Function
+    - List of Prime Factors for N
+- primeQ.py
+    - Is N prime? Function
+    - Gauss's Number of Prime Approximation Function
+    - Primes Under N Function
+        - Simple Iterative Method
+        - Sieve of Eratosthenes Algorithm (In a separate sieve.py file as well)
+    - Prime Factorization & Most Prime Factors Functions
+
 09-21-2020
 - MyFunctionsC.py
     - Fahrenheit to Celsius Function
