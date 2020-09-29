@@ -1,6 +1,20 @@
 # ICS4U Solutions for 2020
 ---
 
+09-28-2020
+- tuple.py
+    - List of Tuples containing (a, b, c) where a is in [1,N) values. b = a^2 and c = a^3
+    - Creating a deck of cards with tuples in a list
+    - Creating a list of pair of values in tuple that represent the frequency of character in a string
+
+- mapFilter.py
+    - Various use of range(), map(), filter()
+    - Generating a list of palindromic numbers in range by using map() and filter()
+
+09-24-2020
+- listComprehension.py
+    - Looking at various exercises on list comprehension
+
 09-23-2020
 - factorQ.py
     - List of Factors for N
