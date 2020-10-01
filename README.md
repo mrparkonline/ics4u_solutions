@@ -1,5 +1,14 @@
 # ICS4U Solutions for 2020
 ---
+09-30-2020
+- dict.py
+    - Each number and its list of factors as a key value pair
+
+- set.py
+    - Comparing the uniqueness of two lists
+    - Remove duplicates of within a list and preserve just a single instance
+    - Complement implementation
+    - Creating set of even and odd numbers
 
 09-28-2020
 - tuple.py
