@@ -1,5 +1,17 @@
 # ICS4U Solutions for 2020
 ---
+10-06-2020
+- letterHistogram.py | Number of each alpha character occurrence from a string
+- Longest Collatz Sequence Under a Million
+    - Brute Force Method | bf_collatz.py
+    - Dictionary: Remembering sequence made previously | dict_collatz.py
+- numDict.py | Working with numbers and dictionary
+- fib.py | Generating Fibonacci sequence using a dictionary
+- amicable.py | Sum of Amicable Numbers Under 10000
+- abundant.py | Sum of None Abundant Number 28123
+- Lexicographic Permutations of Numeric Digits
+    - bf_lexi.py | Brute Force Solution
+
 09-30-2020
 - dict.py
     - Each number and its list of factors as a key value pair
