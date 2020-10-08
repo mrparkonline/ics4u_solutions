@@ -11,6 +11,9 @@
 - abundant.py | Sum of None Abundant Number 28123
 - Lexicographic Permutations of Numeric Digits
     - bf_lexi.py | Brute Force Solution
+    - lexi.py | Wikipedia Algorithm for Generating permutations lexicographically
+- Golf Stroke Problem
+    - bf_golf.py | Brute Force Solution
 
 09-30-2020
 - dict.py
