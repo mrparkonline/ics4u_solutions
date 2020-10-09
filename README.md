@@ -1,5 +1,10 @@
 # ICS4U Solutions for 2020
 ---
+10-09-2020
+- twentyQuestions.py | Binary Search Example with 20 Questions
+- primeRunTimeTest.py | Sieve of Eratosthenes vs Normal/Basic Prime Listing Function
+- countingSort.py | Implementation of Counting Sort
+
 10-06-2020
 - letterHistogram.py | Number of each alpha character occurrence from a string
 - Longest Collatz Sequence Under a Million
