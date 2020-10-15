@@ -1,5 +1,13 @@
 # ICS4U Solutions for 2020
 ---
+10-15-2020
+- recursion1.py | Recursion Problem Set 1 Solutions
+- recursion2.py
+    - Greatest Common Divisor (Non-recursion vs Recursion)
+    - Recursive Linear Search Algorithm
+    - Twenty Question: Where the program tries to guess a number from 1 to 100
+    - Creating a Single Collatz Sequence recursively.
+
 10-09-2020
 - twentyQuestions.py | Binary Search Example with 20 Questions
 - primeRunTimeTest.py | Sieve of Eratosthenes vs Normal/Basic Prime Listing Function
