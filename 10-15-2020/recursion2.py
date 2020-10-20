@@ -109,5 +109,38 @@ def sequence(start, arr=[]):
         else:
             return sequence((start*3)+1, arr + [start])
 
-print(13, sequence(13))
-print(29, sequence(29))
+#print(13, sequence(13))
+#print(29, sequence(29))
+
+# Incoporating dictionary and recursion
+collatz_table = {1: [1]} # our dictionary to track solutions
+
+def collatz(num):
+    # Base case 1: is num found in our table?
+    if num in collatz_table:
+        # the num is a key in our dictionary
+        return collatz_table[num]
+    else:
+        # we need to generate the sequence for num
+        next_num = 0
+        if num % 2 == 0:
+            next_num = num // 2
+        else:
+            next_num = (num * 3) + 1
+
+        collatz_table[num] = [num] + collatz(next_num)
+        # [num] + collatz(next_num) is a singleton list being extended by the result of
+        # collatz(next_num) which also returns a list
+
+        return collatz_table[num]
+# end of collatz
+
+print('Table before execution:', collatz_table)
+print('-----')
+
+print('Collatz of 13:', collatz(13))
+print()
+print('Table after execution:', collatz_table)
+print('Collatz of 29:', collatz(29))
+print()
+print('Table after execution:', collatz_table)

@@ -1,5 +1,14 @@
 # ICS4U Solutions for 2020
 ---
+10-20-2020
+- sortingAlgorithms.py
+    - Bubble Sort
+    - Insertion Sort
+    - Selection Sort
+
+10-19-2020
+- Binary Search Implementation in Python
+
 10-15-2020
 - recursion1.py | Recursion Problem Set 1 Solutions
 - recursion2.py
@@ -7,6 +16,7 @@
     - Recursive Linear Search Algorithm
     - Twenty Question: Where the program tries to guess a number from 1 to 100
     - Creating a Single Collatz Sequence recursively.
+- Sum of Powers Recursively
 
 10-09-2020
 - twentyQuestions.py | Binary Search Example with 20 Questions
