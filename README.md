@@ -1,5 +1,9 @@
 # ICS4U Solutions for 2020
 ---
+
+10-21-2020
+- mergeSort.py | Top Down Recursive Implementation of Merge Sort
+
 10-20-2020
 - sortingAlgorithms.py
     - Bubble Sort
